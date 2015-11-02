@@ -3,7 +3,7 @@
 ##Cloning and Running
 
 * [Source](http://wiki.qemu.org/Download Download Source)
-* [Building Source](http://wiki.qemu.org/Hosts/Linux Qemu-Wiki) 
+* [Building Source](http://wiki.qemu.org/Hosts/Linux Qemu-Wiki)
 
 ##Dependencies
 
@@ -20,4 +20,3 @@ $ ./configure --target-list=x86_64-softmmu --enable-debug --disable-werror --dis
 $ sudo make -j8
 $ sudo make install
 ```
-
