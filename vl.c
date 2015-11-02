@@ -1908,7 +1908,7 @@ static void main_loop(void)
 
 static void version(void)
 {
-    printf("QEMU custom emulator version " QEMU_VERSION QEMU_PKGVERSION ", Copyright (c) 2003-2008 Fabrice Bellard. Modified by Dwaraka and Deepak\n");
+    printf("QEMU custom emulator version " QEMU_VERSION QEMU_PKGVERSION ", Modified by Dwaraka and Deepak\n");
 }
 
 static void help(int exitcode)
