@@ -5,6 +5,12 @@
 * [Source](http://wiki.qemu.org/Download Download Source)
 * [Building Source](http://wiki.qemu.org/Hosts/Linux Qemu-Wiki) 
 
+##Dependencies
+
+```bash
+$ sudo apt-get install git libglib2.0-dev libfdt-dev libpixman-1-##Dependencies
+```
+
 ##Build Commands
 
 Custom build commands for minimal kernel
