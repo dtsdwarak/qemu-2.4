@@ -8,7 +8,7 @@
 ##Dependencies
 
 ```bash
-$ sudo apt-get install git libglib2.0-dev libfdt-dev libpixman-1-##Dependencies
+$ sudo apt-get install git libglib2.0-dev libfdt-dev libpixman-1-dev zlib1g-dev
 ```
 
 ##Build Commands
