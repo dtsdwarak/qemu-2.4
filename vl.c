@@ -89,7 +89,7 @@ int main(int argc, char **argv)
 #include "migration/block.h"
 #include "sysemu/tpm.h"
 #include "sysemu/dma.h"
-#include "audio/audio.h"
+// #include "audio/audio.h"
 #include "migration/migration.h"
 #include "sysemu/kvm.h"
 #include "qapi/qmp/qjson.h"
@@ -208,8 +208,8 @@ static int default_parallel = 1;
 static int default_virtcon = 1;
 static int default_sclp = 1;
 static int default_monitor = 1;
-static int default_floppy = 1;
-static int default_cdrom = 1;
+static int default_floppy = 0;
+static int default_cdrom = 0;
 static int default_sdcard = 1;
 static int default_vga = 1;
 
@@ -1908,7 +1908,7 @@ static void main_loop(void)
 
 static void version(void)
 {
-    printf("QEMU custom emulator version " QEMU_VERSION QEMU_PKGVERSION ", Changed by Dwaraka and Deepak\n");
+    printf("QEMU custom emulator version " QEMU_VERSION QEMU_PKGVERSION ", altered by Dwaraka and Deepak\n");
 }
 
 static void help(int exitcode)
@@ -3309,7 +3309,7 @@ int main(int argc, char **argv, char **envp)
                 add_device_config(DEV_BT, optarg);
                 break;
             case QEMU_OPTION_audio_help:
-                AUD_help ();
+                // AUD_help ();
                 exit (0);
                 break;
             case QEMU_OPTION_soundhw:
